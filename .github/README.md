@@ -1,7 +1,7 @@
 # 🟡 Community Browser CDN Build – JavaScript SDK Client Package
 
 This repository provides a **community-maintained, browser-ready distribution** of the npm module
-[`@aws-sdk/client-auditmanager`](https://www.npmjs.com/package/@aws-sdk/client-auditmanager/v/3.36.0).
+[`@aws-sdk/client-auditmanager`](https://www.npmjs.com/package/@aws-sdk/client-auditmanager/v/3.36.1).
 
 Each package is **automatically built and published to a CDN**, allowing developers to use the SDK client **directly in browsers** with **zero bundling or build steps**.
 
@@ -28,13 +28,13 @@ You can use this package directly in the browser via **jsDelivr** using an **imp
 CDN URL
 
 ```text
-https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auditmanager@3.36.0/index.min.mjs
+https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auditmanager@3.36.1/index.min.mjs
 ```
 
 SRI SHA Hash
 
 ```text
-sha384-v60rWOP0873nIoU7btWYd0aFFCxYxdLAvGXjS+9sVEfA31fxbMOFAJX60+ij9euZ
+sha384-fwPY4uY7yi9Z7CjBBKKqc7zefVOO9Jyzp9ppan7vLg7yIM/QJReHX65MGiErbIr/
 ```
 
 ### 📌 Latest Version
@@ -61,10 +61,10 @@ ImportMap
 <script type="importmap">
       {
         "imports": {
-            "@aws-sdk/client-auditmanager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auditmanager@3.36.0/index.min.mjs"
+            "@aws-sdk/client-auditmanager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auditmanager@3.36.1/index.min.mjs"
         },
           "integrity": {
-            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auditmanager@3.36.0/index.min.mjs": "sha384-v60rWOP0873nIoU7btWYd0aFFCxYxdLAvGXjS+9sVEfA31fxbMOFAJX60+ij9euZ"
+            "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auditmanager@3.36.1/index.min.mjs": "sha384-fwPY4uY7yi9Z7CjBBKKqc7zefVOO9Jyzp9ppan7vLg7yIM/QJReHX65MGiErbIr/"
         }
       }
 </script>
@@ -81,10 +81,10 @@ Full Importmap Example
             <script type="importmap">
                   {
                     "imports": {
-                        "@aws-sdk/client-auditmanager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auditmanager@3.36.0/index.min.mjs"
+                        "@aws-sdk/client-auditmanager": "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auditmanager@3.36.1/index.min.mjs"
                     },
                       "integrity": {
-                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auditmanager@3.36.0/index.min.mjs": "sha384-v60rWOP0873nIoU7btWYd0aFFCxYxdLAvGXjS+9sVEfA31fxbMOFAJX60+ij9euZ"
+                        "https://cdn.jsdelivr.net/gh/cloud-sdk-builds/client-auditmanager@3.36.1/index.min.mjs": "sha384-fwPY4uY7yi9Z7CjBBKKqc7zefVOO9Jyzp9ppan7vLg7yIM/QJReHX65MGiErbIr/"
                     }
                   }
             </script>
@@ -151,7 +151,7 @@ Replace
 
 When using CDN builds in production environments:
 
-* Always pin to a specific version (`@3.36.0`)
+* Always pin to a specific version (`@3.36.1`)
 * Avoid using `latest` in production to prevent unexpected breaking changes
 
 ---
@@ -171,7 +171,7 @@ https://github.com/cloud-sdk-builds/.github/issues
 This distribution follows the license terms included in the repository:
 
 ```
-https://github.com/cloud-sdk-builds/client-auditmanager/blob/refs/tags/3.36.0/LICENSE
+https://github.com/cloud-sdk-builds/client-auditmanager/blob/refs/tags/3.36.1/LICENSE
 ```
 
 ---
